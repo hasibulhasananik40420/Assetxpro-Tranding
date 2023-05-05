@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { AiOutlineTwitter } from "react-icons/ai";
 import { useState } from "react";
+import { IoIosAdd } from "react-icons/io";
 
 function DesktopMenu({ setSidebar }) {
   return (
@@ -70,7 +71,7 @@ function DesktopMenu({ setSidebar }) {
          
           className="bg-[#fefffe0f] w-12 h-12 flex justify-center cursor-pointer items-center rounded-full hover:bg-[#3657CD] duration-300"
         >
-          <h1>dotss</h1>
+          <h1 className="text-red-500 text-3xl"><IoIosAdd/></h1>
         </li>
       </ul>
 
